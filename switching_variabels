@@ -1,0 +1,9 @@
+a = input("a: ")
+b = input("b: ")
+
+c = a      # c could be anything e.g. temp
+a = b
+b = c
+
+print("a: " + a)
+print("b: " + b)
